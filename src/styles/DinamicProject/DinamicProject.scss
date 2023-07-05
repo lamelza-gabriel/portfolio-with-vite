@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700;800&display=swap");
+
+.navbar-test-container {
+	width: 100vw;
+}
+.dinamic-main-container {
+	height: 100vh;
+	background-image: url(../../assets/bgs/flat-mountains.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	.dinamic-text-container {
+		max-width: 600px;
+		font-family: "Source Sans 3", sans-serif;
+		position: relative;
+		top: 20%;
+		margin: auto;
+		width: 90%;
+		text-align: center;
+		color: whitesmoke;
+		.dinamic-title {
+			font-weight: 900;
+			font-size: 40px;
+			margin: 20px auto;
+			letter-spacing: 3px;
+		}
+		.dinamic-p {
+			width: 70%;
+			margin: 10px auto;
+		}
+		.dinamic-link-btn {
+			cursor: pointer;
+			margin-top: 20px;
+			padding: 1rem 4.5rem;
+			background: #aa0000;
+			color: whitesmoke;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 700;
+			border-radius: 5px;
+			transition: ease 0.3s;
+			border: 1px solid transparent;
+		}
+		.dinamic-link-btn:hover {
+			opacity: 0.8;
+			border: 1px solid whitesmoke;
+		}
+	}
+}
+.dinamic-overview-container {
+	width: 100%;
+	background-color: #e5dfdf;
+	font-family: "Source Sans 3", sans-serif;
+	padding: 40px 0px;
+	text-align: center;
+	.dinamic-overview-title {
+		font-weight: 800;
+		font-size: 30px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		margin-bottom: 3rem;
+		color: #111;
+		border-bottom: 3px solid #aa0000;
+		display: inline-block;
+		width: 80%;
+	}
+	.dinamic-img-container {
+		height: auto;
+		max-width: 350px;
+		margin: 10px auto;
+		.project-image {
+			max-width: 250px;
+		}
+	}
+}
+.dinamic-overview-text-container {
+	margin: 50px auto;
+	width: 70%;
+	max-width: 750px;
+	.overview-title {
+		margin: 20px auto;
+		font-weight: 700;
+		font-size: 30px;
+	}
+	.overview-p {
+		text-align: left;
+		font-size: 20px;
+		line-height: 45px;
+		color: #666;
+		margin-bottom: 2rem;
+	}
+}
+.dinamic-btns-container {
+	width: 70%;
+	max-width: 750px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	.dinamic-link {
+		margin: 20px auto;
+		color: white;
+		text-decoration: none;
+		width: auto;
+		height: fit-content;
+		.dinamic-live-link {
+			width: 100%;
+			cursor: pointer;
+			max-width: 200px;
+			padding: 20px 50px;
+			background-color: #cc0000;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 700;
+			border-radius: 5px;
+			margin: 0px auto;
+			transition: ease 0.2s;
+			border: 1px solid transparent;
+			height: 100%;
+			display: block;
+		}
+	}
+	.dinamic-link {
+		display: inline;
+		color: whitesmoke;
+		text-decoration: none;
+		width: auto;
+		height: fit-content;
+
+		.dinamic-go-back {
+			height: 100%;
+			display: block;
+			width: 100%;
+			cursor: pointer;
+			max-width: 200px;
+			padding: 20px 50px;
+			background-color: transparent;
+			color: black;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 700;
+			border-radius: 5px;
+			margin: 0px auto;
+			transition: ease 0.2s;
+			border: 2px solid #cc0000;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.dinamic-main-container {
+		height: 100vh;
+		background-image: url(../../assets/bgs/flat-mountains.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		.dinamic-text-container {
+			max-width: 700px;
+			font-family: "Source Sans 3", sans-serif;
+			position: relative;
+			top: 20%;
+			margin: auto;
+			width: 70%;
+			text-align: center;
+			color: whitesmoke;
+			.dinamic-title {
+				font-weight: 900;
+				font-size: 40px;
+				margin: 20px auto;
+				letter-spacing: 3px;
+			}
+			.dinamic-p {
+				width: 70%;
+				margin: 10px auto;
+			}
+			.dinamic-link-btn {
+				cursor: pointer;
+				margin-top: 20px;
+				padding: 1rem 4.5rem;
+				background: #aa0000;
+				color: whitesmoke;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				font-weight: 700;
+				border-radius: 5px;
+				transition: ease 0.3s;
+				border: 1px solid transparent;
+			}
+			.dinamic-link-btn:hover {
+				opacity: 0.8;
+				border: 1px solid whitesmoke;
+			}
+		}
+	}
+	.dinamic-overview-container {
+		width: 100%;
+		background-color: #e5dfdf;
+		font-family: "Source Sans 3", sans-serif;
+		padding: 40px 0px;
+		text-align: center;
+		.dinamic-overview-title {
+			font-weight: 800;
+			font-size: 30px;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			margin-bottom: 3rem;
+			color: #111;
+			border-bottom: 3px solid #aa0000;
+			display: inline-block;
+			width: auto;
+		}
+		.dinamic-img-container {
+			max-width: 750px;
+			margin: 10px auto;
+			.project image {
+				width: 100%;
+			}
+		}
+		.dinamic-overview-text-container {
+			margin: 50px auto;
+			width: 70%;
+			max-width: 750px;
+			.overview-title {
+				margin: 20px auto;
+				font-weight: 700;
+				font-size: 30px;
+			}
+			.overview-p {
+				text-align: left;
+				font-size: 20px;
+				line-height: 45px;
+				color: #666;
+				margin-bottom: 2rem;
+			}
+		}
+		.dinamic-btns-container {
+			width: 70%;
+			max-width: 750px;
+			margin: 10px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			.dinamic-link {
+				color: white;
+				text-decoration: none;
+				width: auto;
+				height: fit-content;
+				.dinamic-live-link {
+					width: 100%;
+					cursor: pointer;
+					max-width: 200px;
+					padding: 20px 50px;
+					background-color: #cc0000;
+					color: #fff;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-weight: 700;
+					border-radius: 5px;
+					margin: 0px auto;
+					transition: ease 0.2s;
+					border: 1px solid transparent;
+					height: 100%;
+					display: block;
+				}
+			}
+			.dinamic-link {
+				display: inline;
+				color: whitesmoke;
+				text-decoration: none;
+				width: auto;
+				height: fit-content;
+
+				.dinamic-go-back {
+					height: 100%;
+					display: block;
+					width: 100%;
+					cursor: pointer;
+					max-width: 200px;
+					padding: 20px 50px;
+					background-color: transparent;
+					color: black;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-weight: 700;
+					border-radius: 5px;
+					margin: 0px auto;
+					transition: ease 0.2s;
+					border: 2px solid #cc0000;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.dinamic-main-container {
+		height: 100vh;
+		background-image: url(../../assets/bgs/flat-mountains.svg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		.dinamic-text-container {
+			max-width: 700px;
+			font-family: "Source Sans 3", sans-serif;
+			position: relative;
+			top: 20%;
+			margin: auto;
+			width: 70%;
+			text-align: center;
+			color: whitesmoke;
+			.dinamic-title {
+				font-weight: 900;
+				font-size: 40px;
+				margin: 20px auto;
+				letter-spacing: 3px;
+			}
+			.dinamic-p {
+				width: 70%;
+				margin: 10px auto;
+			}
+			.dinamic-link-btn {
+				cursor: pointer;
+				margin-top: 20px;
+				padding: 1rem 4.5rem;
+				background: #aa0000;
+				color: whitesmoke;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				font-weight: 700;
+				border-radius: 5px;
+				transition: ease 0.3s;
+				border: 1px solid transparent;
+			}
+			.dinamic-link-btn:hover {
+				opacity: 0.8;
+				border: 1px solid whitesmoke;
+			}
+		}
+	}
+	.dinamic-overview-container {
+		width: 100%;
+		background-color: #e5dfdf;
+		font-family: "Source Sans 3", sans-serif;
+		padding: 40px 0px;
+		text-align: center;
+		.dinamic-overview-title {
+			font-weight: 800;
+			font-size: 30px;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			margin-bottom: 3rem;
+			color: #111;
+			border-bottom: 3px solid #aa0000;
+			display: inline-block;
+			width: auto;
+		}
+		.dinamic-img-container {
+			max-width: 750px;
+			margin: 10px auto;
+			.project image {
+				width: 100%;
+			}
+		}
+		.dinamic-overview-text-container {
+			margin: 50px auto;
+			width: 70%;
+			max-width: 750px;
+			.overview-title {
+				margin: 20px auto;
+				font-weight: 700;
+				font-size: 30px;
+			}
+			.overview-p {
+				text-align: left;
+				font-size: 20px;
+				line-height: 45px;
+				color: #666;
+				margin-bottom: 2rem;
+			}
+		}
+		.dinamic-btns-container {
+			width: 70%;
+			max-width: 750px;
+			margin: 10px auto;
+			display: flex;
+			justify-content: space-around;
+			.dinamic-link {
+				color: white;
+				text-decoration: none;
+				width: auto;
+				height: fit-content;
+				.dinamic-live-link {
+					width: 100%;
+					cursor: pointer;
+					max-width: 200px;
+					padding: 20px 50px;
+					background-color: #cc0000;
+					color: #fff;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-weight: 700;
+					border-radius: 5px;
+					margin: 0px auto;
+					transition: ease 0.2s;
+					border: 1px solid transparent;
+					height: 100%;
+					display: block;
+				}
+			}
+			.dinamic-link {
+				display: inline;
+				color: whitesmoke;
+				text-decoration: none;
+				width: auto;
+				height: fit-content;
+
+				.dinamic-go-back {
+					height: 100%;
+					display: block;
+					width: 100%;
+					cursor: pointer;
+					max-width: 200px;
+					padding: 20px 50px;
+					background-color: transparent;
+					color: black;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					font-weight: 700;
+					border-radius: 5px;
+					margin: 0px auto;
+					transition: ease 0.2s;
+					border: 2px solid #cc0000;
+				}
+			}
+		}
+	}
+}
