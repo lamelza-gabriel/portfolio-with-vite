@@ -1,14 +1,8 @@
 import "../styles/Navbar.css";
 
-import Gabi1 from "../assets/gabi1.webp";
 import { useState } from "react";
 
-import logo1 from "../assets/webicons/1.png";
-import logo2 from "../assets/webicons/2.png";
 import logo3 from "../assets/webicons/3.png";
-import logo4 from "../assets/webicons/4.png";
-import logo5 from "../assets/webicons/VA.png";
-import logo6 from "../assets/webicons/newIcon.png";
 
 const Navbar = () => {
 	const [menu, setMenu] = useState(true);
@@ -41,7 +35,7 @@ const Navbar = () => {
 			</nav>
 			<nav className='mobile-navbar'>
 				<div className='navbar-container profile-container '>
-					<img className='profile-img' src={Gabi1} alt='me' />
+					<img className='profile-img' src={logo3} alt='me' />
 					<p>Gabriel Lamelza</p>
 				</div>
 				<div className='menu-burguer-container'>
